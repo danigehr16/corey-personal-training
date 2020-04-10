@@ -1,6 +1,4 @@
-.navBars {
-    background-color: yellow;
-}
+
 .box {
     background-color: yellow;
     border-color: darkgrey;
@@ -17,6 +15,10 @@
     clear: right;
     margin-left: 40px;
     margin-top: 60px;
+    border-radius: 8px;
+    border-color: gray;
+    border: 3px;
+    box-shadow: -12px -12px 10px 0px gray;
     
     
 }
@@ -25,6 +27,10 @@
     width: 400px;
     float: right;
     margin-right: 40px;
+    border-radius: 8px;
+    border-color: gray;
+    border: 3px;
+    box-shadow: 10px 10px 10px 0px gray;
     
     
     
@@ -59,6 +65,7 @@
         0 3px 5px #000,
         0 5px 10px #000,
         0 5px 20px #000;
+    
 }
 #home {
     float: left;
@@ -74,6 +81,7 @@
         0 5px 10px #000,
         0 5px 20px #000;
     margin-right: 10px;
+    
 }
 #about {
     float: left;
@@ -88,6 +96,7 @@
         0 3px 5px #000,
         0 5px 10px #000,
         0 5px 20px #000;
+    
     
 }
 #reg {
@@ -104,6 +113,7 @@
         0 5px 10px #000,
         0 5px 20px #000;
     margin-left: 10px;
+    
 }
 #test {
     float: left;
@@ -119,4 +129,14 @@
         0 5px 10px #000,
         0 5px 20px #000;
     margin-left: 10px;
+    
+}
+#phrase {
+    text-shadow: 0px -2px 0px #333,
+0px 2px 3px yellow;
+font-family:'Carter One', cursive;
+font-size: 25px;
+float: left;
+margin-left: 500px;
+margin-bottom: 70px;
 }
